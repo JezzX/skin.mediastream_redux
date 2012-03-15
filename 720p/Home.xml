@@ -1,5 +1,5 @@
 <window id="0">
-	<defaultcontrol always="true">8999</defaultcontrol>
+	<defaultcontrol always="true">9000</defaultcontrol>
 	<allowoverlay>no</allowoverlay>	
 	<controls>
 <!--		<control type="videowindow">
@@ -497,33 +497,6 @@
 				<height>720</height>
 				<colordiffuse>DAFFFFFF</colordiffuse>
 				<texture>HomeBlade.png</texture>
-			</control>
-			<control type="button" id="8999">
-				<description>Run Recently added</description>
-				<posx>-20</posx>
-				<posy>-20</posy>
-				<width>1</width>
-				<height>1</height>
-				<label>-</label>
-				<font>-</font>
-				<onfocus>XBMC.RunScript(script.recentlyadded,limit=4)</onfocus>
-				<onfocus>SetFocus(9000)</onfocus>
-				<texturenofocus>-</texturenofocus>
-				<texturefocus>-</texturefocus>
-				<visible>!Skin.HasSetting(homepageHideRecentlyAdded)</visible>
-			</control>
-			<control type="button" id="8999">
-				<description>Don't run Recently added</description>
-				<posx>-20</posx>
-				<posy>-20</posy>
-				<width>1</width>
-				<height>1</height>
-				<label>-</label>
-				<font>-</font>
-				<onfocus>SetFocus(9000)</onfocus>
-				<texturenofocus>-</texturenofocus>
-				<texturefocus>-</texturefocus>
-				<visible>Skin.HasSetting(homepageHideRecentlyAdded)</visible>
 			</control>
 			<control type="wraplist" id="9000">
 				<posx>-20</posx>
