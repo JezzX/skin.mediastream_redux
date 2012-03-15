@@ -4,7 +4,6 @@
 	<views>50,503</views>
 	<controls>
 		<include>CommonSettingsBackground</include>
-		<include>CommonMediaPlayingBackground</include>
 		<control type="group">
 			<include>Window_OpenClose_Animation</include>		
 			<control type="image">
@@ -31,7 +30,6 @@
 			<include>CommonRootView</include> <!-- view id = 50 -->
 			<include>AddonInfoListView1</include> <!-- view id = 503 -->
 		</control>
-		<include>CommonPageCount</include>
 		<include>BehindDialogFadeOut</include>
 		<include>ScrollOffsetLabel</include>
 		<control type="group">
