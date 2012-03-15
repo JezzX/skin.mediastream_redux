@@ -370,54 +370,86 @@
 					<onup>9015</onup>
 					<ondown>9015</ondown>
 					<itemgap>0</itemgap>
-					<visible>Container(9000).HasFocus(1) + [[Skin.HasSetting(HomeScriptButton1) + !IsEmpty(Skin.String(HomeScriptButton1_label))] | [Skin.HasSetting(HomeScriptButton2) + !IsEmpty(Skin.String(HomeScriptButton2_label))] | [Skin.HasSetting(HomeScriptButton3) + !IsEmpty(Skin.String(HomeScriptButton3_label))] | [Skin.HasSetting(HomeScriptButton4) + !IsEmpty(Skin.String(HomeScriptButton4_label))] | [Skin.HasSetting(HomeScriptButton5) + !IsEmpty(Skin.String(HomeScriptButton5_label))] | [Skin.HasSetting(HomeScriptButton6) + !IsEmpty(Skin.String(HomeScriptButton6_label))]]</visible>
+					<visible>Container(9000).HasFocus(1)</visible>
 					<control type="button" id="90151">
 						<description>Button1</description>
 						<include>ButtonHomeSubCommonValues</include>
-						<label>$INFO[Skin.String(HomeScriptButton1_label)]</label>
+						<label>$INFO[system.addontitle(Skin.String(HomeAddonButton1))]</label>
 						<onclick>Setfocus(9000)</onclick>
-						<onclick>XBMC.RunScript($INFO[Skin.String(HomeScriptButton1_Path)])</onclick>
-						<visible>Skin.HasSetting(HomeScriptButton1) + !IsEmpty(Skin.String(HomeScriptButton1_label))</visible>
+						<onclick>XBMC.RunAddon($INFO[Skin.String(HomeAddonButton1)])</onclick>
+						<visible>!IsEmpty(Skin.String(HomeAddonButton1))</visible>
 					</control>
 					<control type="button" id="90152">
-						<description>Button2</description>
+						<description>Button1</description>
 						<include>ButtonHomeSubCommonValues</include>
-						<label>$INFO[Skin.String(HomeScriptButton2_label)]</label>
+						<label>$INFO[system.addontitle(Skin.String(HomeAddonButton2))]</label>
 						<onclick>Setfocus(9000)</onclick>
-						<onclick>XBMC.RunScript($INFO[Skin.String(HomeScriptButton2_Path)])</onclick>
-						<visible>Skin.HasSetting(HomeScriptButton2) + !IsEmpty(Skin.String(HomeScriptButton2_label))</visible>
+						<onclick>XBMC.RunAddon($INFO[Skin.String(HomeAddonButton2)])</onclick>
+						<visible>!IsEmpty(Skin.String(HomeAddonButton2))</visible>
 					</control>
 					<control type="button" id="90153">
-						<description>Button3</description>
+						<description>Button1</description>
 						<include>ButtonHomeSubCommonValues</include>
-						<label>$INFO[Skin.String(HomeScriptButton3_label)]</label>
+						<label>$INFO[system.addontitle(Skin.String(HomeAddonButton3))]</label>
 						<onclick>Setfocus(9000)</onclick>
-						<onclick>XBMC.RunScript($INFO[Skin.String(HomeScriptButton3_Path)])</onclick>
-						<visible>Skin.HasSetting(HomeScriptButton3) + !IsEmpty(Skin.String(HomeScriptButton3_label))</visible>
+						<onclick>XBMC.RunAddon($INFO[Skin.String(HomeAddonButton3)])</onclick>
+						<visible>!IsEmpty(Skin.String(HomeAddonButton3))</visible>
 					</control>
 					<control type="button" id="90154">
-						<description>Button4</description>
+						<description>Button1</description>
 						<include>ButtonHomeSubCommonValues</include>
-						<label>$INFO[Skin.String(HomeScriptButton4_label)]</label>
+						<label>$INFO[system.addontitle(Skin.String(HomeAddonButton4))]</label>
 						<onclick>Setfocus(9000)</onclick>
-						<onclick>XBMC.RunScript($INFO[Skin.String(HomeScriptButton4_Path)])</onclick>
-						<visible>Skin.HasSetting(HomeScriptButton4) + !IsEmpty(Skin.String(HomeScriptButton4_label))</visible>
+						<onclick>XBMC.RunAddon($INFO[Skin.String(HomeAddonButton4)])</onclick>
+						<visible>!IsEmpty(Skin.String(HomeAddonButton4))</visible>
 					</control>
 					<control type="button" id="90155">
-						<description>Button5</description>
+						<description>Button1</description>
 						<include>ButtonHomeSubCommonValues</include>
-						<label>$INFO[Skin.String(HomeScriptButton5_label)]</label>
+						<label>$INFO[system.addontitle(Skin.String(HomeAddonButton5))]</label>
 						<onclick>Setfocus(9000)</onclick>
-						<onclick>XBMC.RunScript($INFO[Skin.String(HomeScriptButton5_Path)])</onclick>
-						<visible>Skin.HasSetting(HomeScriptButton5) + !IsEmpty(Skin.String(HomeScriptButton5_label))</visible>
+						<onclick>XBMC.RunAddon($INFO[Skin.String(HomeAddonButton5)])</onclick>
+						<visible>!IsEmpty(Skin.String(HomeAddonButton5))</visible>
 					</control>
 					<control type="button" id="90156">
-						<description>Button6</description>
+						<description>Button1</description>
 						<include>ButtonHomeSubCommonValues</include>
-						<label>$INFO[Skin.String(HomeScriptButton6_label)]</label>
+						<label>$INFO[system.addontitle(Skin.String(HomeAddonButton6))]</label>
 						<onclick>Setfocus(9000)</onclick>
-						<onclick>XBMC.RunScript($INFO[Skin.String(HomeScriptButton6_Path)])</onclick>
-						<visible>Skin.HasSetting(HomeScriptButton6) + !IsEmpty(Skin.String(HomeScriptButton6_label))</visible>
+						<onclick>XBMC.RunAddon($INFO[Skin.String(HomeAddonButton6)])</onclick>
+						<visible>!IsEmpty(Skin.String(HomeAddonButton6))</visible>
+					</control>
+					<control type="button" id="90157">
+						<description>Button1</description>
+						<include>ButtonHomeSubCommonValues</include>
+						<label>$INFO[system.addontitle(Skin.String(HomeAddonButton7))]</label>
+						<onclick>Setfocus(9000)</onclick>
+						<onclick>XBMC.RunAddon($INFO[Skin.String(HomeAddonButton7)])</onclick>
+						<visible>!IsEmpty(Skin.String(HomeAddonButton7))</visible>
+					</control>
+					<control type="button" id="90158">
+						<description>Button1</description>
+						<include>ButtonHomeSubCommonValues</include>
+						<label>$INFO[system.addontitle(Skin.String(HomeAddonButton8))]</label>
+						<onclick>Setfocus(9000)</onclick>
+						<onclick>XBMC.RunAddon($INFO[Skin.String(HomeAddonButton8)])</onclick>
+						<visible>!IsEmpty(Skin.String(HomeAddonButton8))</visible>
+					</control>
+					<control type="button" id="90159">
+						<description>Button1</description>
+						<include>ButtonHomeSubCommonValues</include>
+						<label>$INFO[system.addontitle(Skin.String(HomeAddonButton9))]</label>
+						<onclick>Setfocus(9000)</onclick>
+						<onclick>XBMC.RunAddon($INFO[Skin.String(HomeAddonButton9)])</onclick>
+						<visible>!IsEmpty(Skin.String(HomeAddonButton9))</visible>
+					</control>
+					<control type="button" id="901510">
+						<description>Button1</description>
+						<include>ButtonHomeSubCommonValues</include>
+						<label>$INFO[system.addontitle(Skin.String(HomeAddonButton10))]</label>
+						<onclick>Setfocus(9000)</onclick>
+						<onclick>XBMC.RunAddon($INFO[Skin.String(HomeAddonButton10)])</onclick>
+						<visible>!IsEmpty(Skin.String(HomeAddonButton10))</visible>
 					</control>
 				</control>
 				<control type="grouplist" id="9016">
@@ -556,7 +588,7 @@
 						<width>18</width>
 						<height>18</height>
 						<texture>HomeHasSub.png</texture>
-						<visible>Container(9000).HasFocus(2) | Container(9000).HasFocus(3) | Container(9000).HasFocus(5) | Container(9000).HasFocus(7) | Container(9000).HasFocus(9) | [Container(9000).HasFocus(1) + [[Skin.HasSetting(HomeScriptButton1) + !IsEmpty(Skin.String(HomeScriptButton1_label))] | [Skin.HasSetting(HomeScriptButton2) + !IsEmpty(Skin.String(HomeScriptButton2_label))] | [Skin.HasSetting(HomeScriptButton3) + !IsEmpty(Skin.String(HomeScriptButton3_label))] | [Skin.HasSetting(HomeScriptButton4) + !IsEmpty(Skin.String(HomeScriptButton4_label))] | [Skin.HasSetting(HomeScriptButton5) + !IsEmpty(Skin.String(HomeScriptButton5_label))] | [Skin.HasSetting(HomeScriptButton6) + !IsEmpty(Skin.String(HomeScriptButton6_label))]]] | Container(9000).HasFocus(10) | Container(9000).HasFocus(11)</visible>
+						<visible>Container(9000).HasFocus(2) | Container(9000).HasFocus(3) | Container(9000).HasFocus(5) | Container(9000).HasFocus(7) | Container(9000).HasFocus(9) | [Container(9000).HasFocus(1) + [[Skin.HasSetting(HomeAddonButton1) + !IsEmpty(Skin.String(HomeAddonButton1_label))] | [Skin.HasSetting(HomeAddonButton2) + !IsEmpty(Skin.String(HomeAddonButton2_label))] | [Skin.HasSetting(HomeAddonButton3) + !IsEmpty(Skin.String(HomeAddonButton3_label))] | [Skin.HasSetting(HomeAddonButton4) + !IsEmpty(Skin.String(HomeAddonButton4_label))] | [Skin.HasSetting(HomeAddonButton5) + !IsEmpty(Skin.String(HomeAddonButton5_label))] | [Skin.HasSetting(HomeAddonButton6) + !IsEmpty(Skin.String(HomeAddonButton6_label))]]] | Container(9000).HasFocus(10) | Container(9000).HasFocus(11)</visible>
 					</control>
 				</focusedlayout>
 				<content>

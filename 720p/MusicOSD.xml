@@ -36,12 +36,12 @@
 					<focusedcolor>blue</focusedcolor>
 					<texturefocus border="0,0,31,0">Chevrons_Blue.png</texturefocus>
 					<texturenofocus border="0,0,31,0">Chevrons.png</texturenofocus>
-					<onclick>XBMC.RunScript($INFO[Skin.String(LyricScript_Path)])</onclick>
+					<onclick>XBMC.RunScript($INFO[Skin.String(LyricsAddon)])</onclick>
 					<onleft>91</onleft>
 					<onright>91</onright>
 					<onup>300</onup>
 					<ondown>100</ondown>
-					<enable>Skin.HasSetting(LyricScript_Enable) + !IsEmpty(Skin.String(LyricScript_Path))</enable>
+					<enable>!IsEmpty(Skin.String(LyricsAddon))</enable>
 				</control>
 			</control>
 			<control type="group" id="300">

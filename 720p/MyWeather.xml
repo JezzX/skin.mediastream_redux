@@ -819,40 +819,24 @@
 					<onleft>50</onleft>
 					<onright>50</onright>
 					<onup>3</onup>
-					<ondown>5</ondown>
-				</control>
-				<control type="button" id="5">
-					<description>Custom Weather Script Button</description>
-					<posx>0</posx>
-					<posy>80</posy>
-					<label>$INFO[Skin.String(WeatherScript_Label)]</label>
-					<onclick>SetFocus(50)</onclick>
-					<onclick>XBMC.RunScript($INFO[Skin.String(WeatherScript_Path)])</onclick>
-					<onclick>SetFocus(50)</onclick>
-					<include>ButtonCommonValues</include>
-					<visible>Skin.HasSetting(WeatherScript_Enable) + !IsEmpty(Skin.String(WeatherScript_Label))</visible>
-					<onleft>50</onleft>
-					<onright>50</onright>
-					<onup>2</onup>
 					<ondown>4</ondown>
 				</control>
 				<control type="button" id="4">
 					<description>Settings button</description>
 					<posx>0</posx>
-					<posy>120</posy>
+					<posy>80</posy>
 					<label>5</label>
 					<onclick>ActivateWindow(MyWeatherSettings)</onclick>
 					<include>ButtonCommonValues</include>
 					<onleft>50</onleft>
 					<onright>50</onright>
-					<onup>5</onup>
+					<onup>2</onup>
 					<ondown>98</ondown>
-					<animation effect="slide" end="0,-40" time="0" condition="!Control.IsVisible(5)">Conditional</animation>
 				</control>
 				<control type="radiobutton" id="98">
 					<description>Extra Options</description>
 					<posx>0</posx>
-					<posy>160</posy>
+					<posy>120</posy>
 					<include>ButtonCommonValues</include>
 					<radiowidth>18</radiowidth>
 					<radioheight>18</radioheight>
@@ -865,7 +849,6 @@
 					<onright>9010</onright>
 					<onup>4</onup>
 					<ondown>610</ondown>
-					<animation effect="slide" end="0,-40" time="0" condition="!Control.IsVisible(5)">Conditional</animation>
 				</control>
 				<control type="button" id="610">
 					<description>Fake Button to fix Player Controls Navigation</description>

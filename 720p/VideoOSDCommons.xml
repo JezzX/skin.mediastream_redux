@@ -507,9 +507,9 @@
 				<onup>90</onup>
 				<ondown>200</ondown>
 				<onclick>Close</onclick>
-				<onclick>XBMC.RunScript($INFO[Skin.String(SubtitleScript_Path)])</onclick>
-				<enable>Skin.HasSetting(SubtitleDownload_Enable) + !IsEmpty(Skin.String(SubtitleScript_Path))</enable>
-				<animation effect="fade" start="100" end="50" time="100" condition="![Skin.HasSetting(SubtitleDownload_Enable) + !IsEmpty(Skin.String(SubtitleScript_Path))]">Conditional</animation>
+				<onclick>XBMC.RunScript($INFO[Skin.String(SubtitleAddon)])</onclick>
+				<enable>!IsEmpty(Skin.String(SubtitleAddon))</enable>
+				<animation effect="fade" start="100" end="50" time="100" condition="IsEmpty(Skin.String(SubtitleScript_Path))">Conditional</animation>
 			</control>
 		</control>
 		<control type="group" id="200">

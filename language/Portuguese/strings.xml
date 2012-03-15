@@ -89,7 +89,7 @@
   <string id="31117">Mostrar vídeos adicionados recentemente</string>
 
   <string id="31118">Submenu do menu principal</string>
-  <string id="31119">Ligar botão personalizado de add-on</string>
+  <string id="31119"></string>
   <string id="31120">ETIQUETA DO BOTÃO</string>
   <string id="31121">CAMINHO PARA O ADD-ON</string>
   <string id="31122">Página de meteorologia</string>
@@ -97,10 +97,6 @@
   <string id="31123">Usar pósters em vez de bandeiras para as séries de TV</string>
   <string id="31124">Usar pré-visualização do vídeo em vez de capa</string>
   <string id="31125">Mostrar leitor apenas com DVD/CD inserido</string>
-
-  <string id="31126">Ligar letras no OSD de música</string>
-  <string id="31127">CAMINHO PARA ADD-ON DE LETRAS</string>
-  <string id="31128">Letras do XBMC</string>
 
   <!-- Script labels -->
   <string id="31200">Atalhos</string>
