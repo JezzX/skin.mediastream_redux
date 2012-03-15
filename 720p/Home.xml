@@ -689,7 +689,7 @@
 				</control>
 				<control type="label">
 					<posx>0</posx>
-					<posy>15</posy>
+					<posy>12</posy>
 					<width>380</width>
 					<height>20</height>
 					<font>font13caps_title</font>
