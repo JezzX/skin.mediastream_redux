@@ -46,7 +46,7 @@
 				<width>90</width>
 				<height>85</height>
 				<aspectratio>keep</aspectratio>
-				<texture>$INFO[Weather.Conditions]</texture>
+				<texture>$INFO[Window(Weather).Property(Current.ConditionIcon)]</texture>
 			</control>
 			<control type="fadelabel">
 				<description>location label</description>
@@ -54,7 +54,7 @@
 				<posy>15</posy>
 				<height>30</height>
 				<width>355</width>
-				<label>$INFO[Weather.Location]</label>
+				<label>$INFO[Window(Weather).Property(Location)]</label>
 				<align>left</align>
 				<aligny>center</aligny>
 				<font>font13caps_title</font>
@@ -69,7 +69,7 @@
 				<posy>45</posy>
 				<height>25</height>
 				<width>355</width>
-				<label>$INFO[Weather.Conditions]</label>
+				<label>$INFO[Window(Weather).Property(Current.Condition)]</label>
 				<align>left</align>
 				<aligny>center</aligny>
 				<font>font12</font>
