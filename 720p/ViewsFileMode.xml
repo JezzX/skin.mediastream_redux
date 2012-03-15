@@ -554,7 +554,7 @@
 			<visible>Control.IsVisible(505)</visible>
 			<include>VisibleFadeEffect</include>
 			<control type="panel" id="505">
-				<visible>[Container.Content(TVShows) + !Skin.HasSetting(TVShowsUsePosters)] | Window.IsVisible(VideoFiles)</visible>
+				<visible>[Container.Content(TVShows) + !Skin.HasSetting(TVShowsUsePosters)]</visible>
 				<posx>50</posx>
 				<posy>100</posy>
 				<width>1180</width>

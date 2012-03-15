@@ -184,12 +184,12 @@
 					<control type="button" id="90104">
 						<include>ButtonHomeSubCommonValues</include>
 						<label>744</label>
-						<onclick>ActivateWindow(VideoFiles)</onclick>
+						<onclick>ActivateWindow(Videos,Files)</onclick>
 					</control>
 					<control type="button" id="90105">
 						<include>ButtonHomeSubCommonValues</include>
 						<label>14022</label>
-						<onclick>ActivateWindow(VideoLibrary)</onclick>
+						<onclick>ActivateWindow(Videos)</onclick>
 						<visible>Library.HasContent(Videos)</visible>
 					</control>
 					<control type="button" id="90106">

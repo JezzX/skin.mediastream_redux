@@ -14,7 +14,7 @@
 				<texture>GlassTitleBar.png</texture>
 			</control>
 			<control type="wraplist" id="501">
-				<visible>Container.Content(Movies) | Container.Content(Seasons) | [Container.Content(TVShows) + Skin.HasSetting(TVShowsUsePosters)] | Window.IsVisible(VideoFiles)</visible>
+				<visible>Container.Content(Movies) | Container.Content(Seasons) | [Container.Content(TVShows) + Skin.HasSetting(TVShowsUsePosters)]</visible>
 				<posx>-123</posx>
 				<posy>0</posy>
 				<width>1526</width>
@@ -100,36 +100,7 @@
 			</control>
 		</control>
 		<control type="group">
-			<visible>Control.IsVisible(501) + Window.IsVisible(VideoFiles)</visible>
-			<control type="label">
-				<posx>0</posx>
-				<posy>530</posy>
-				<width>1280</width>
-				<height>35</height>
-				<font>font35caps_title</font>
-				<textcolor>white</textcolor>
-				<shadowcolor>black</shadowcolor>
-				<scroll>true</scroll>
-				<align>center</align>
-				<aligny>center</aligny>
-				<label>$INFO[ListItem.Label]</label>
-			</control>
-			<control type="label">
-				<posx>0</posx>
-				<posy>580</posy>
-				<width>1280</width>
-				<height>35</height>
-				<font>font30caps</font>
-				<textcolor>white</textcolor>
-				<shadowcolor>black</shadowcolor>
-				<scroll>true</scroll>
-				<align>center</align>
-				<aligny>center</aligny>
-				<label>$INFO[ListItem.Label2]</label>
-			</control>
-		</control>
-		<control type="group">
-			<visible>[Control.IsVisible(501) + !Window.IsVisible(VideoFiles)] + Container.Content(Movies)</visible>
+			<visible>Control.IsVisible(501) + Container.Content(Movies)</visible>
 			<control type="label">
 				<posx>0</posx>
 				<posy>520</posy>
@@ -205,7 +176,7 @@
 			</control>
 		</control>
 		<control type="group">
-			<visible>[Control.IsVisible(501) + !Window.IsVisible(VideoFiles)] + Container.Content(Seasons)</visible>
+			<visible>Control.IsVisible(501) + Container.Content(Seasons)</visible>
 			<control type="label">
 				<posx>0</posx>
 				<posy>530</posy>
@@ -256,7 +227,7 @@
 			</control>
 		</control>
 		<control type="group">
-			<visible>[Control.IsVisible(501) + !Window.IsVisible(VideoFiles)] + Container.Content(TVShows)</visible>
+			<visible>Control.IsVisible(501) + Container.Content(TVShows)</visible>
 			<control type="label">
 				<posx>0</posx>
 				<posy>530</posy>
