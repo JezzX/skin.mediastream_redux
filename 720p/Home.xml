@@ -544,7 +544,7 @@
 						<posy>60</posy>
 						<width>380</width>
 						<height>45</height>
-						<font>font50caps_title</font>
+						<font>font45caps_title</font>
 						<textcolor>white</textcolor>
 						<align>right</align>
 						<aligny>center</aligny>
