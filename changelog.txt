@@ -1,3 +1,17 @@
+2.0.0
+
+- Removed all references to old Recently Added videos script and Use the inbuilt stuff instead
+- Removed some files used by older scripts that are not needed or just don't work anymore
+- Removed all references to Video Files since its not needed in eden
+- Updated weather to work with the current add-on system
+- Made the home font a little smaller
+- Fixed alignment of Favorites text in home
+- Fixed up all the add-on shortcuts to use the new way of fetching and running add-ons
+- Fixed some code errors
+- Fixed up some old unused code lying around thanks to phil65's checker tool
+- Added: More windows needed for eden XBMC (Peripheral ones)
+
+
 1.2.1
 
 - Fixed Recently Added script wasn't being run properly
