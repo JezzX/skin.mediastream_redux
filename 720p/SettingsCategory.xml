@@ -8,7 +8,7 @@
 			<posy>50</posy>
 			<width>1100</width>
 			<height>640</height>
-			<texture border="20">Dialogback.png</texture>
+			<texture border="20">DialogBack.png</texture>
 			<animation effect="fade" time="200" condition="!Window.Previous(Settings)">WindowOpen</animation>
 			<animation effect="fade" time="300" condition="!Window.Next(Settings)">WindowClose</animation>
 		</control>
