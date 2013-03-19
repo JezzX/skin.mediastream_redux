@@ -11,20 +11,10 @@
 				<posy>0</posy>
 				<width>1280</width>
 				<height>720</height>
-				<texture background="true">$INFO[ListItem.Property(Fanart_Image)]</texture>
+				<texture background="true">$INFO[ListItem.Art(fanart)]</texture>
 				<include>backgroundfade</include>
 				<fadetime>FanartCrossfadeTime</fadetime>
-				<visible>Skin.HasSetting(MusicLibraryFanart) + !IsEmpty(ListItem.Property(Fanart_Image))</visible>
-			</control>
-			<control type="image">
-				<posx>0</posx>
-				<posy>0</posy>
-				<width>1280</width>
-				<height>720</height>
-				<texture background="true">$INFO[Fanart.Image]</texture>
-				<include>backgroundfade</include>
-				<fadetime>FanartCrossfadeTime</fadetime>
-				<visible>Skin.HasSetting(MusicLibraryFanart) + !IsEmpty(Fanart.Image)</visible>
+				<visible>Skin.HasSetting(MusicLibraryFanart) + !IsEmpty(ListItem.Art(fanart))</visible>
 			</control>
 			<control type="image">
 				<posx>50</posx>
