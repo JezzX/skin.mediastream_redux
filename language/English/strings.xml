@@ -94,7 +94,6 @@
   <string id="31121">PATH TO ADD-ON</string>
   <string id="31122">Weather Page</string>
 
-  <string id="31123">Use "Posters" instead of "Banners" for TV Shows</string>
   <string id="31124">Use Video Preview Instead of Cover</string>
   <string id="31125">Show Disc Drive only when media inserted</string>
 
@@ -153,6 +152,7 @@
   <string id="31328">Recently Added</string>
   <string id="31329">[B]TIMER SET![/B] [COLOR=grey2] - SYSTEM AUTO SHUTDOWN IN[/COLOR]</string>
   <string id="31330">Data provider</string>
+  <string id="31331">TV Show Details</string>
 
   <!-- Description Labels  -->
   <string id="31400">[B]Edit your Appearance settings, Including.[/B][CR][CR]Calibrate the GUI · Change the Skin · Set up a screensaver · Change your regional settings · Set global Viewing options</string>
