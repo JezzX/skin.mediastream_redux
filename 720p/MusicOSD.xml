@@ -11,7 +11,6 @@
 			<animation effect="fade" start="0" end="100" time="200" condition="Player.ShowInfo">WindowOpen</animation>
 			<animation effect="fade" start="100" end="0" time="200">WindowClose</animation>
 			<control type="group">
-				<animation effect="slide" start="0,0" end="0,-15" time="0" condition="LastFM.RadioPlaying">Conditional</animation>
 				<posx>135</posx>
 				<posy>0</posy>
 				<control type="image">
@@ -39,60 +38,12 @@
 					<onclick>XBMC.RunScript($INFO[Skin.String(LyricsAddon)])</onclick>
 					<onleft>91</onleft>
 					<onright>91</onright>
-					<onup>300</onup>
+					<onup>200</onup>
 					<ondown>100</ondown>
 					<enable>!IsEmpty(Skin.String(LyricsAddon))</enable>
 				</control>
 			</control>
-			<control type="group" id="300">
-				<posx>300</posx>
-				<posy>118</posy>
-				<onup>200</onup>
-				<ondown>90</ondown>
-				<visible>LastFM.RadioPlaying</visible>
-				<control type="label">
-					<posx>-10</posx>
-					<posy>3</posy>
-					<width>370</width>
-					<height>25</height>
-					<label>$LOCALIZE[15200]</label>
-					<align>right</align>
-					<aligny>center</aligny>
-					<font>font13caps_title</font>
-					<textcolor>blue</textcolor>
-					<shadowcolor>black</shadowcolor>
-				</control>
-				<control type="button" id="800">
-					<posx>0</posx>
-					<posy>0</posy>
-					<width>30</width>
-					<height>30</height>
-					<label>-</label>
-					<texturefocus>lastfm-love-focus.png</texturefocus>
-					<texturenofocus>lastfm-love-nofocus.png</texturenofocus>
-					<onleft>801</onleft>
-					<onright>801</onright>
-					<onup>200</onup>
-					<ondown>90</ondown>
-					<onclick>XBMC.LastFM.Love</onclick>
-				</control>
-				<control type="button" id="801">
-					<posx>30</posx>
-					<posy>0</posy>
-					<width>30</width>
-					<height>30</height>
-					<label>-</label>
-					<texturefocus>lastfm-hate-focus.png</texturefocus>
-					<texturenofocus>lastfm-hate-nofocus.png</texturenofocus>
-					<onleft>800</onleft>
-					<onright>800</onright>
-					<onup>200</onup>
-					<ondown>90</ondown>
-					<onclick>XBMC.LastFM.Hate</onclick>
-				</control>
-			</control>
 			<control type="group">
-				<animation effect="slide" start="0,0" end="0,-20" time="0" condition="LastFM.RadioPlaying">Conditional</animation>
 				<posy>40</posy>
 				<control type="group" id="100">
 					<control type="button" id="600">
@@ -215,7 +166,7 @@
 						<onleft>705</onleft>
 						<onright>701</onright>
 						<onup>100</onup>
-						<ondown>300</ondown>
+						<ondown>90</ondown>
 					</control>
 					<control type="image">
 						<posx>0</posx>
@@ -286,7 +237,7 @@
 						<onleft>700</onleft>
 						<onright>702</onright>
 						<onup>100</onup>
-						<ondown>300</ondown>
+						<ondown>90</ondown>
 					</control>
 					<control type="button" id="702">
 						<posx>100</posx>
@@ -313,7 +264,7 @@
 						<onleft>702</onleft>
 						<onright>704</onright>
 						<onup>100</onup>
-						<ondown>300</ondown>
+						<ondown>90</ondown>
 					</control>
 					<control type="button" id="704">
 						<posx>200</posx>
@@ -326,7 +277,7 @@
 						<onleft>500</onleft>
 						<onright>705</onright>
 						<onup>100</onup>
-						<ondown>300</ondown>
+						<ondown>90</ondown>
 						<onclick>ActivateWindow(122)</onclick>
 					</control>
 					<control type="button" id="705">
@@ -340,7 +291,7 @@
 						<onleft>704</onleft>
 						<onright>700</onright>
 						<onup>100</onup>
-						<ondown>300</ondown>
+						<ondown>90</ondown>
 						<onclick>Addon.Default.OpenSettings(xbmc.player.musicviz)</onclick>
 					</control>
 				</control>
