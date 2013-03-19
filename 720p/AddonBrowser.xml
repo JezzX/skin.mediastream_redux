@@ -117,11 +117,22 @@
 					<onleft>50</onleft>
 					<onright>50</onright>
 					<onup>3</onup>
+					<ondown>7</ondown>
+				</control>
+				<control type="radiobutton" id ="7">
+					<description>Hide foreign</description>
+					<posx>0</posx>
+					<posy>170</posy>
+					<include>ButtonCommonValues</include>
+					<label>25001</label>
+					<onleft>50</onleft>
+					<onright>50</onright>
+					<onup>5</onup>
 					<ondown>610</ondown>
 				</control>
 				<control type="button" id="610">
 					<description>Fake Button to fix Player Controls Navigation</description>
-					<onup>5</onup>
+					<onup>7</onup>
 					<ondown>603</ondown>
 					<visible>false</visible>
 				</control>
