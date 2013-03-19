@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon
   id="skin.mediastream_redux"
-  version="2.0.0"
+  version="2.5.0"
   name="MediaStream Redux"
   provider-name="Jezz_X (graphics by team razorfish)">
   <requires>
-    <import addon="xbmc.gui" version="3.00"/>
+    <import addon="xbmc.gui" version="4.0.0"/>
   </requires>
   <extension
     point="xbmc.gui.skin"
