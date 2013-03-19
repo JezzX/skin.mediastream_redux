@@ -187,10 +187,20 @@
 						<include>ButtonMediaSubCommonValues</include>
 						<label>137</label>
 					</control>
-					<control type="radiobutton" id="19">
+					<control type="edit" id="19">
 						<description>Filter</description>
 						<include>ButtonMediaSubCommonValues</include>
 						<label>587</label>
+						<visible>Container.CanFilter + !Container.CanFilterAdvanced</visible>
+					</control>
+					<control type="radiobutton" id="20">
+						<description>Filter</description>
+						<include>ButtonMediaSubCommonValues</include>
+						<label>587</label>
+						<selected>Container.Filtered</selected>
+						<onclick>right</onclick>
+						<onclick>Filter</onclick>
+						<visible>Container.CanFilterAdvanced</visible>
 					</control>
 					<control type="radiobutton" id="16">
 						<description>PartyMode</description>

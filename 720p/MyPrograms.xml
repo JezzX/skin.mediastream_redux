@@ -75,7 +75,7 @@
 					<onleft>50</onleft>
 					<onright>4</onright>
 					<onup>2</onup>
-					<ondown>610</ondown>
+					<ondown>19</ondown>
 				</control>
 				<control type="togglebutton" id="4">
 					<description>Sort asc</description>
@@ -85,11 +85,38 @@
 					<onleft>3</onleft>
 					<onright>50</onright>
 					<onup>2</onup>
+					<ondown>19</ondown>
+				</control>
+				<control type="edit" id="19">
+					<description>Filter</description>
+					<posx>0</posx>
+					<posy>80</posy>
+					<include>ButtonCommonValues</include>
+					<label>587</label>
+					<visible>Container.CanFilter + !Container.CanFilterAdvanced</visible>
+					<onleft>50</onleft>
+					<onright>50</onright>
+					<onup>3</onup>
+					<ondown>20</ondown>
+				</control>
+				<control type="radiobutton" id="20">
+					<description>Filter</description>
+					<posx>0</posx>
+					<posy>80</posy>
+					<include>ButtonCommonValues</include>
+					<label>587</label>
+					<selected>Container.Filtered</selected>
+					<onclick>right</onclick>
+					<onclick>Filter</onclick>
+					<visible>Container.CanFilterAdvanced</visible>
+					<onleft>50</onleft>
+					<onright>50</onright>
+					<onup>19</onup>
 					<ondown>610</ondown>
 				</control>
 				<control type="button" id="610">
 					<description>Fake Button to fix Player Controls Navigation</description>
-					<onup>3</onup>
+					<onup>20</onup>
 					<ondown>603</ondown>
 					<visible>false</visible>
 				</control>
