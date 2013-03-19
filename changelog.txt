@@ -1,3 +1,7 @@
+2.5.0
+
+- Upgrade compatibility for XBMC Frodo
+
 2.0.0
 
 - Removed all references to old Recently Added videos script and Use the inbuilt stuff instead
